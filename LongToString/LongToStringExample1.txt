@@ -1,0 +1,11 @@
+public class LongToStringExample1 {
+    public static void main(String[] args) {
+        long number = 123456789L;
+        
+        String str1 = String.valueOf(number);
+        
+        System.out.println("Method 1: Using String.valueOf()");
+        System.out.println("Original long: " + number);
+        System.out.println("Converted String: " + str1);
+    }
+}
